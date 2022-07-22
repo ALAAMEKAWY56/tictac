@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica , sans-serif;
+    text-align: center;
+    color:  #c54c82; 
+    background: #fffbe3; 
+}
+hr{
+    width: 500px;
+    height: 3px;
+    background:  #c54c82; 
+}
+
+#board{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.tile {
+    width: 147px;
+    height: 147px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-line{
+    border-right:  3px solid   #c54c82; 
+}
+.horizontal-line{
+    border-bottom:  3px solid  #c54c82; 
+
+}
+.Winner{
+    background-color: #d38cad; 
+    color: red;
+}
